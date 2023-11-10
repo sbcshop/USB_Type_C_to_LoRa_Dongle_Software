@@ -37,7 +37,7 @@ USB Type-C to LoRa Dongle is a powerful and versatile LoRa device that lets you 
 ### Operating Mode
  There are four operating modes, which are set by M1 and M0. Connecting jumper makes corresponding pin Logic 0 and open makes it Logic 1. 
  
- <img src = ""/>
+ <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/Mode_selection.jpg" width="502" height="320"/>
  
  |Operating Mode | M1 | M0 |
  |---|---|---|
@@ -55,7 +55,7 @@ UART serial pins of LoRa is breakout in header and screw terminal form. So, this
  |RX | TX |
  |GND | GND |
 
-<img src = "https://github.com/sbcshop/Usb_To_LoRa_Dongle_Software/blob/main/Images/img14.jpg"/>
+<img src = ""/>
 
 ### Lora GUI For Configuration (run with the help of GUI)
 
