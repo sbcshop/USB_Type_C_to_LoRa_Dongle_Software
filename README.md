@@ -1,6 +1,6 @@
-# USB-Type-C-to-LoRa-Dongle-Software
+# USB Type A/C to LoRa Dongle Software
 
-USB Type-C to LoRa Dongle is a powerful and versatile LoRa device that lets you connect beyond boundaries. With its exceptional range and easy connectivity, it allows you to seamlessly communicate with devices up to 5 km away. LoRa Dongle is the perfect solution for anyone looking to establish long-range wireless communication in a variety of applications.
+USB to LoRa Dongle is a powerful and versatile LoRa device that lets you connect beyond boundaries. With its exceptional range and easy connectivity, it allows you to seamlessly communicate with devices up to 5 km away. LoRa Dongle is the perfect solution for anyone looking to establish long-range wireless communication in a variety of applications.
 
 <!--
 <img src = "https://github.com/sbcshop/Usb_To_LoRa_Dongle_Software/blob/main/Images/lora_usb.png"/>
