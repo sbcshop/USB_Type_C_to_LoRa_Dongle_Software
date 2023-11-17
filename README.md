@@ -14,9 +14,9 @@ USB Type-C to LoRa Dongle is a powerful and versatile LoRa device that lets you 
 
     If you don't have CH340 driver installed in PC/laptop, then checkout [CH340 Driver Installation Manual Guide](https://github.com/sbcshop/NFC_Module/blob/main/documents/CH340%20Driver%20installation%20steps.pdf).
 
-* To begin, select the jumpers indicated in the diagram below to configure the LoRa in transceiver mode:
+* To begin, make sure to have jumpers as indicated in the diagram below to set the LoRa in transceiver mode:
 
-  <img src = ""/>
+  <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/normal_mode.png"/>
 
 * You can download the XCTU from link : [Download XCTU](https://hub.digi.com/support/products/xctu/)
    
@@ -46,8 +46,21 @@ USB Type-C to LoRa Dongle is a powerful and versatile LoRa device that lets you 
  |Configuration Mode | 1 | 0 |
  |Deep Sleep Mode | 1 | 1 |
 
+ For example, 
+* Normal Mode 
+
+  <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/normal_mode.png"/>
+
+ * Config Mode
+
+   <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/config_mode.png"/>
+
 ### LoRa Dongle As Breakout
 UART serial pins of LoRa is breakout in header and screw terminal form. So, this device can be used as a breakout to connect with any microcontroller or MCU. 
+
+<img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/LoRa_uart_pins.png" width="445" height="262"/>
+
+How to interface LoRa with Microcontroller
  |Microcontroller | LoRa Device |
  |---|---|
  |5V | 5V |
@@ -55,26 +68,25 @@ UART serial pins of LoRa is breakout in header and screw terminal form. So, this
  |RX | TX |
  |GND | GND |
 
-<img src = ""/>
 
 ### Lora GUI For Configuration (run with the help of GUI)
 
  Follow the steps to configure the Lora module:-
 
- #### Step 1: Setup lora in configuration mode, for this you need to short M0 and open M1 as shown in figure. In case of LoRa Dongle find the mode selection jumper in that board and remove M1 jumper for config mode.
+ #### Step 1: Setup lora in configuration mode, short M0 and open M1 as shown in figure. 
  
-  <img src= "https://github.com/sbcshop/Usb_To_LoRa_Dongle_Software/blob/main/Images/img2.jpg" />
+  <img src= "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/config_mode.png" />
  
-#### Step 2: Open lora GUI 
+#### Step 2: Connect LoRa dongle to PC/laptop USB. Download and open [lora GUI application](https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/tree/main/GUI%20For%20Window) for windows available in github here
  <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_1.png" />
 
-#### Step 3: set the COM Port and Baudrate
+#### Step 3: Select the COM Port and Baudrate
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_2.png" />
  
-#### Step 4: For COM Port go to Device Manager, before this first you need to connect the Lora module via USB cable 
+#### Step 4: Connect LoRa dongle to system and Open Device Manager to know correct com port
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_7.png" />
  
-#### Step 5: Write the right COM Port in the GUI,then press connect button
+#### Step 5: Write the proper COM Port in the GUI, then press connect button
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_8.png" />
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_9.png" />
 
@@ -83,7 +95,23 @@ UART serial pins of LoRa is breakout in header and screw terminal form. So, this
  
 #### Step 7: Write the values which you need to configure, for eg: i configure channel and baudrate, after that press write button
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_13.png" />
+
+ How to Set corresponding frequency:
  
+    -> For changing frequency using Software for 868MHz & 915MHz LoRa module:
+
+    Frequency = 850.125MHz + CH*1MHz
+    
+    0-83 total of 84 Channel available
+    
+    So, when 5 selected Frequency = 850.125MHz + 5*1MHz Frequency = 855.125MHz
+    
+    -> For Changing Frequency using Software for 433MHz LoRa Module: Frequency = 410.125MHz + CH*1MHz
+    
+    0-83 total of 84 Channel available
+    
+    So, when 5 selected Frequency = 410.125MHz + 5*1MHz Frequency = 415.125MHz
+    
 #### Step 8: Restart the GUI, set baudrate and port, then connect and press read button 
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_14.png" />
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_15.png" />
