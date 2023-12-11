@@ -79,14 +79,11 @@ How to interface LoRa with Microcontroller
  
 #### Step 2: Connect LoRa dongle to PC/laptop USB. Download and open [lora GUI application](https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/tree/main/GUI%20For%20Window) for windows available in github here
  <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_1.png" />
-
-#### Step 3: Select the COM Port and Baudrate
-  <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_2.png" />
  
 #### Step 4: Connect LoRa dongle to system and Open Device Manager to know correct com port
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_7.png" />
  
-#### Step 5: Write the proper COM Port in the GUI, then press connect button
+#### Step 5: Write the proper COM Port in the GUI and provide baudrate, then press connect button
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_8.png" />
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_9.png" />
 
