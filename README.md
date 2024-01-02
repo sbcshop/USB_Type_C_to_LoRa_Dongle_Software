@@ -34,6 +34,10 @@ USB to LoRa Dongle is a powerful and versatile LoRa device that lets you connect
   
   <img src = "https://github.com/sbcshop/Usb_To_LoRa_Dongle_Software/blob/main/Images/img12.png"/>
   <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/usb_c.png "/>
+
+  Here
+       **RX --> Data send by LoRa to computer via USB**
+       **TX --> Data receive by LoRa to computer via USB** 
 ### Operating Mode
  There are four operating modes, which are set by M1 and M0. Connecting the jumper makes the corresponding pin Logic 0 and opening makes it Logic 1. 
  
@@ -73,17 +77,17 @@ How to interface LoRa with Microcontroller
 
  Follow the steps to configure the Lora module:-
 
- #### Step 1: Set up lora in configuration mode, short M0, and open M1 as shown in the figure. 
+ #### Step 1: Set up Lora in configuration mode, short M0, and open M1 as shown in the figure. 
  
   <img src= "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/config_mode.png" />
  
 #### Step 2: Connect LoRa dongle to PC/laptop USB. Download and open [lora GUI application](https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/tree/main/GUI%20For%20Window) for Windows available in GitHub here
  <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_1.png" />
  
-#### Step 4: Connect the LoRa dongle to the system and Open Device Manager to know the correct com port
+#### Step 4: Connect the LoRa dongle to the system and Open Device Manager to know the correct COM port
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_7.png" />
  
-#### Step 5: Write the proper COM Port in the GUI and provide baud rate, then press connect button
+#### Step 5: Write the proper COM Port in the GUI and provide the baud rate, then press the connect button
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_8.png" />
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_9.png" />
 
@@ -109,7 +113,7 @@ How to interface LoRa with Microcontroller
     
     So, when 5 selected Frequency = 410.125MHz + 5*1MHz Frequency = 415.125MHz
     
-#### Step 8: Restart the GUI, set baudrate and port, then connect and press read button 
+#### Step 8: Restart the GUI, set baudrate and port, then connect and press the read button 
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_14.png" />
   <img src= "https://github.com/sbcshop/Lora-HAT-for-Raspberry-Pi/blob/main/images/img_15.png" />
 
@@ -144,7 +148,7 @@ How to interface LoRa with Microcontroller
  
 ## Product License
 
-This is ***open source*** product. Kindly check LICENSE.md file for more information.
+This is ***open source*** product. Kindly check the LICENSE.md file for more information.
 
 Please contact support@sb-components.co.uk for technical support.
 <p align="center">
