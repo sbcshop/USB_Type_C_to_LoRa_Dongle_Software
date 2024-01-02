@@ -36,8 +36,11 @@ USB to LoRa Dongle is a powerful and versatile LoRa device that lets you connect
   <img src = "https://github.com/sbcshop/USB_Type_C_to_LoRa_Dongle_Software/blob/main/images/usb_c.png "/>
 
   Here
-       **RX --> Data send by LoRa to computer via USB**
-       **TX --> Data receive by LoRa to computer via USB** 
+
+  **RX --> Data send by LoRa to computer via USB**
+  
+  **TX --> Data receive by LoRa to computer via USB**
+  
 ### Operating Mode
  There are four operating modes, which are set by M1 and M0. Connecting the jumper makes the corresponding pin Logic 0 and opening makes it Logic 1. 
  
