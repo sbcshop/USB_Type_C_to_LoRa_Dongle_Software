@@ -37,9 +37,9 @@ USB to LoRa Dongle is a powerful and versatile LoRa device that lets you connect
 
   Here
 
-  **RX --> Data send by LoRa to computer via USB**
+  **RX --> Data sent by LoRa to computer via USB ( it means data received by LoRa )**
   
-  **TX --> Data receive by LoRa to computer via USB**
+  **TX --> Data sent by PC  to LoRa via USB ( it means data Transmit by LoRa )**
   
 ### Operating Mode
  There are four operating modes, which are set by M1 and M0. Connecting the jumper makes the corresponding pin Logic 0 and opening makes it Logic 1. 
